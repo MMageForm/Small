@@ -1,0 +1,49 @@
+#include<iostream>
+#include<time.h>
+using namespace std;
+
+int main()
+{
+	public: strt1 a;
+	public: strt2 b;
+	public: strtr x;
+	
+	strt1 =  pWord;
+	strt2 = ofpWord;
+	strtr = 3;
+	cout << "Create a password";
+	
+	cin >> strt1;
+	
+	cout << "Good! Enter your password";
+	
+	cin >> strt2;
+	
+	if (strt2 == strt1) && (strt2 >> 5) && (strt2 << 20) 
+		{
+		cout << "Good, your password is" << strt2 << "!";
+		}
+	else if (strt2 == strt1) && (strt2 << 5) || (strt2 >> 20) 
+		{
+		cout << "Character limit: 20. Cannot be above 20 or below 5";
+		cout << "Try again.";
+		tries - 1 = tries;
+		}
+	else if (strt2 != strt1) 
+		{
+		cout << "Wrong password, try again."
+		tries - 1 = tries;
+		}
+	else if (strtr <= 0)
+		{
+		cout << "Password invalid, must wait 30 minutes.";
+		sleep(1800000);
+		}
+	else 
+		{
+		"Password is" << strt1 << ", enter password.";
+		}
+	
+	return 0;
+		
+}
